@@ -38,8 +38,8 @@ contract CoffeePortal {
     }
 
     /*
-     * I declare a variable waves that lets me store an array of structs.
-     * This is what lets me hold all the waves anyone ever sends to me!
+     * I declare variable coffee that lets me store an array of structs.
+     * This is what lets me hold all the coffee anyone ever sends to me!
      */
     Coffee[] coffee;
 
@@ -60,9 +60,9 @@ contract CoffeePortal {
     }
 
     /*
-     * You'll notice I changed the wave function a little here as well and
+     * You'll notice I changed the buyCoffee function a little here as well and
      * now it requires a string called _message. This is the message our user
-     * sends us from the frontend!
+     * sends us from the front end!
      */
     function buyCoffee(
         string memory _message,

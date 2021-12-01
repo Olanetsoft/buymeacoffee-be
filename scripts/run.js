@@ -20,7 +20,7 @@ const main = async () => {
   );
 
   /*
-   * Let's try two waves now
+   * Let's try to buy a coffee
    */
   const coffeeTxn = await coffeeContract.buyCoffee(
     "This is coffee #1",
